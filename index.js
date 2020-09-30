@@ -4,4 +4,7 @@ const updateObjectWithKeyAndValue = (obj, key, value) => {
 }
 
 // destructive
-const 
+const destructivelyUpdateObjectWithKeyAndValue = (obj, key, value) => {
+  obj[key] = value;
+  return obj;
+}
